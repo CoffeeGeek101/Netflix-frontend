@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    color: #fff;
+    margin-right: 15px;
+    font-weight: 300;
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+}

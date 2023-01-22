@@ -1,0 +1,40 @@
+.list{
+    position: relative;
+}
+
+.list-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.list-container{
+    padding: 15px 50px;
+}
+
+.list-wrapper{
+    display: flex;
+    width: max-content;
+    transform: translateX(0px);
+    padding: 10px 0;
+    transition: 1s;
+}
+
+.list-control{
+    position: absolute;
+    background-color: rgba(36, 36, 36, 0.521);
+    color: #fff !important;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 80px 0;
+    cursor: pointer;
+}
+
+
+.left{
+    left:0;
+}
+.right{
+    right: 0;
+}
